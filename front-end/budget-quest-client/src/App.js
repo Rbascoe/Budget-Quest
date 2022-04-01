@@ -1,5 +1,5 @@
 import { React } from "react";
-import { Header } from "./src/components/Header.js";
+import { Header } from "./components/Header";
 import { Balance } from "./components/Balance";
 import { Expenses } from "./components/Expenses";
 import { Income } from "./components/Income";
