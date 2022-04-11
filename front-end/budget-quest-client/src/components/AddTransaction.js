@@ -8,7 +8,9 @@ export const AddTransaction = () =>{
     return (
         <form>
             <label>Name</label>
-            <input></input>
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} ></input>
+            <label>Amount</label>
+            <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} ></input>
         </form>
     )
 }
