@@ -16,8 +16,10 @@ function App() {
       </header>
       <div >
         <Balance/>
+        <span>
         <Income/>
         <Expenses/>
+        </span>
         <TransactionList/>
         <AddTransaction/>
       </div>
