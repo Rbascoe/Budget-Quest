@@ -58,13 +58,13 @@ h3 {
   border-right: 1px solid #dedede;
 }
 
-/* .money {
+.money {
   font-size: 20px;
   letter-spacing: 1px;
   margin: 5px 0;
 }
 
-.money.plus {
+/* .money.plus {
   color: #2ecc71;
 }
 
@@ -139,6 +139,9 @@ input[type='number'] {
   line-height: 20px;
   padding: 2px 5px;
   position: absolute;
+  top: 50%;
+  right: -25%;
+  transform: translate(-100%, -50%);
   opacity: 1;
   transition: opacity 0.3s ease;
 }
