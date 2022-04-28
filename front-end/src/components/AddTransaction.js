@@ -21,12 +21,15 @@ export const AddTransaction = () =>{
 
     
     return (
+        <>
+        <h3>Enter a new Transaction</h3>
         <form onSubmit={onSubmit}>
             <label htmlFor="name">Name</label>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
             <label htmlFor="amount">Amount</label>
             <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} />
-            <button>Add transaction</button>
+            <button className="btn">Add transaction</button>
         </form>
+        </>
     )
 }

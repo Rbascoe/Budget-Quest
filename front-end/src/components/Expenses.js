@@ -14,7 +14,7 @@ export const Expenses = () => {
 
     return (
         <>
-        <h2>Expenses</h2>
+        <h3>Expenses</h3>
         <h2>${numberWithCommas(expense)}</h2>
         </>
     )
